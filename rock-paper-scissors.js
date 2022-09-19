@@ -24,6 +24,12 @@ if(player1 === rock && player2 === scissors){
     console.log("Player 2 wins!")
 } else if(player1 === paper && player2 === scissors){
     console.log("Player 2 wins!")
+} else if(player1 === rock && player2 === rock){
+    console.log("It's a draw. Play again!")
+} else if(player1 === paper && player2 === paper){
+    console.log("It's a draw. Play again!")
+} else if(player1 === paper && player2 === paper){
+    console.log("It's a draw. Play again!")
 } else  {
     console.log("error")
 }
